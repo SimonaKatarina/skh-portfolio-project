@@ -1,0 +1,13 @@
+/* font-family: "Raleway",
+ sans-serif; (100-900)
+  font-family: "Bodoni Moda",
+  serif; (400-900)*/
+
+h1 {
+font-family: "Bodoni Moda",serif;
+font-weight: 900;
+}
+
+p {
+font-family: "Raleway",sans-serif;
+}
