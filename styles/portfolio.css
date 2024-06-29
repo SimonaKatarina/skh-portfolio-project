@@ -76,6 +76,16 @@ border: 1px solid var(--primary-color);
 }
 
 @media (max-width:900px){
+    .hero h1 {
+        font-size: 45px;
+        line-height: 1.5;
+    }
+    .hero h2 {
+        font-size: 18px;
+    }
+    .hero {
+        padding:24px 10px;
+    }
     .project-description {
         padding: 0;
         text-align: center;
