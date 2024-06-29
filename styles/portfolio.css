@@ -1,5 +1,6 @@
 :root{
     --primary-color:rgba(18, 109, 255);
+    --secondary-color:rgba(214, 214, 210, 0.9);
     --heading-font-family:"Bodoni Moda", serif;
     --default-font-family:"Raleway",sans-serif;
 }
@@ -8,19 +9,28 @@ body{
     font-family: var(--default-font-family);
 }
 
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
 h1, h2,h3, h4, h5, h6 {
 font-family: var(--heading-font-family);
 font-weight: 900;
-font-size: 96px;
+
 }
 
 .hero {
-
+   
     text-align: center;
     color: white;
     background-image:url("/images/hero-backround.jpg");
     background-size: cover;
     padding: 36px 20px;
+}
+
+.hero h1{
+    font-size: 96px;
 }
 
 .hero h2{
@@ -35,16 +45,39 @@ color: white;
 font-size: 36px;
 }
 
-.btn-contact-page:hover{
-    background-color: rgba(214, 214, 210, 0.9);
+.btn-branding:hover{
+    background-color:var(--secondary-color);
     color:var(--primary-color);
 }
 
-.btn-contact-page {
+.btn-branding {
   background-color:var(--primary-color);
   border-radius: 15px;
   line-height: 27px;
   color: rgba(214, 214, 210, 0.9);
   padding: 5px 30px;
   margin: 30px;
+}
+
+.btn-branding-outline:hover {
+    background-color: var(--primary-color);
+    color: white;
+
+}
+
+.btn-branding-outline {
+background-color: var(--secondary-color);
+border: 1px solid var(--primary-color);
+    border-radius: 15px;
+    line-height: 27px;
+    color: var(--primary-color);
+    padding: 5px 10px;
+    margin: 30px;
+}
+
+@media (max-width:900px){
+    .project-description {
+        padding: 0;
+        text-align: center;
+    }
 }
