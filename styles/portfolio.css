@@ -21,6 +21,10 @@ font-weight: 900;
 
 }
 
+h1 {
+    text-align: center;
+}
+
 h2 {
     font-size: 45px;
 }
@@ -34,8 +38,30 @@ h2 {
     padding: 36px 20px;
 }
 
+.about-section {
+    text-align: center;
+    color: white;
+    background-image: url("/images/hero-backround.jpg");
+    background-size: cover;
+    padding: 5px 26px;
+}
+
+.photo-myself{
+   border: 3px solid white;
+}
+
+.about-information {
+    text-align: center;
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
 .hero h1{
     font-size: 96px;
+}
+
+.about-section h1{
+    font-size: 94px;
 }
 
 .hero h2{
@@ -46,8 +72,31 @@ color: white;
     font-size: 26px;
 }
 
+.about-section h2{
+    font-size: 36px;
+    font-weight: 600;
+
+}
+
+.about-section-two{
+    padding: 100px;
+}
+
 .hero p {
 font-size: 36px;
+}
+
+.btn-my-work:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+.btn-my-work {
+    background-color: var(--primary-color);
+    border-radius: 15px;
+    color:white;
+    padding: 5px 30px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .btn-branding:hover{
@@ -96,4 +145,13 @@ border: 1px solid var(--primary-color);
         padding: 0;
         text-align: center;
     }
+}
+
+
+.photo-myself {
+    max-width: 200px;
+}
+
+.photo-myself-ny {
+    max-height: 500px;
 }
