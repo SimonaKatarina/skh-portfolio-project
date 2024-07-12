@@ -38,6 +38,26 @@ h2 {
     padding: 36px 20px;
 }
 
+.image-overlay {
+    position: relative;
+    display: inline-block;
+}
+
+.image-overlay img{
+    display: block;
+    width: 100%;
+    height: auto;
+    
+}
+
+.text-overlay {
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
 .about-section {
     text-align: center;
     color: white;
