@@ -54,11 +54,13 @@ h2 {
     position: absolute;
     top: 5px;
     left: 50%;
+    font-size: 84px;
     transform: translate(-50%, -50%);
     text-align: center;
+    padding: 20px 30px;
 
 }
-.about-section {
+.content-container {
     text-align: center;
     color: white;
     background-image: url("/images/hero-backround.jpg");
@@ -80,7 +82,7 @@ h2 {
     font-size: 96px;
 }
 
-.about-section h1{
+.content-container-two h1{
     font-size: 94px;
 }
 
@@ -92,14 +94,15 @@ color: white;
     font-size: 26px;
 }
 
-.about-section h2{
+.content-container h2{
     font-size: 36px;
     font-weight: 600;
 
 }
 
-.about-section-two{
+.content-container-two {
     padding: 100px;
+    margin: 0;
 }
 
 .hero p {
