@@ -19,6 +19,7 @@
         padding: 0;
         text-align: center;
     }
+    
 }
 
 body{
@@ -161,6 +162,10 @@ border: 1px solid var(--primary-color);
 .content-container h2{
     font-size: 36px;
     font-weight: 600;
+}
+
+.content-container-two h3 {
+    font-size: 24px;
 }
 
 .photo-myself {
