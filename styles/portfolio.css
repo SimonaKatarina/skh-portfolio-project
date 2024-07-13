@@ -4,6 +4,22 @@
     --heading-font-family:"Bodoni Moda", serif;
     --default-font-family:"Raleway",sans-serif;
 }
+@media (max-width:900px){
+    .hero h1 {
+        font-size: 45px;
+        line-height: 1.5;
+    }
+    .hero h2 {
+        font-size: 18px;
+    }
+    .hero {
+        padding:24px 10px;
+    }
+    .project-description {
+        padding: 0;
+        text-align: center;
+    }
+}
 
 body{
     font-family: var(--default-font-family);
@@ -38,53 +54,12 @@ h2 {
     padding: 36px 20px;
 }
 
-.image-overlay {
-    position: relative;
-    display: inline-block;
-}
-
-.image-overlay img{
-    display: block;
-    width: 100%;
-    height: auto;
-    
-}
-
-.text-overlay {
-    position: absolute;
-    top: 5px;
-    left: 50%;
-    font-size: 84px;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    padding: 20px 30px;
-
-}
-.content-container {
-    text-align: center;
-    color: white;
-    background-image: url("/images/hero-backround.jpg");
-    background-size: cover;
-    padding: 5px 26px;
-}
-
-.photo-myself{
-   border: 3px solid white;
-}
-
-.about-information {
-    text-align: center;
-    color: var(--primary-color);
-    font-weight: 700;
-}
 
 .hero h1{
     font-size: 96px;
 }
 
-.content-container-two h1{
-    font-size: 94px;
-}
+
 
 .hero h2{
 font-family:var(--default-font-family);
@@ -94,16 +69,7 @@ color: white;
     font-size: 26px;
 }
 
-.content-container h2{
-    font-size: 36px;
-    font-weight: 600;
 
-}
-
-.content-container-two {
-    padding: 100px;
-    margin: 0;
-}
 
 .hero p {
 font-size: 36px;
@@ -153,28 +119,63 @@ border: 1px solid var(--primary-color);
     margin: 30px;
 }
 
-@media (max-width:900px){
-    .hero h1 {
-        font-size: 45px;
-        line-height: 1.5;
-    }
-    .hero h2 {
-        font-size: 18px;
-    }
-    .hero {
-        padding:24px 10px;
-    }
-    .project-description {
-        padding: 0;
-        text-align: center;
-    }
+
+
+.image-overlay {
+    position: relative;
+    display: inline-block;
 }
 
+.image-overlay img {
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
+
+.text-overlay {
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    font-size: 84px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 20px 30px;
+
+}
+.content-container {
+    text-align: center;
+    color: white;
+    background-image: url("/images/hero-backround.jpg");
+    background-size: cover;
+    padding: 36px 20px;
+}
+
+.content-container-two {
+    padding: 50px;
+    margin: 0;
+  }
+.content-container-two h1{
+    font-size: 94px;
+}
+.content-container h2{
+    font-size: 36px;
+    font-weight: 600;
+}
 
 .photo-myself {
     max-width: 200px;
+    border: 3px solid white;
+}
+
+.about-information {
+    text-align: center;
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 23px;
 }
 
 .photo-myself-ny {
     max-height: 500px;
 }
+
