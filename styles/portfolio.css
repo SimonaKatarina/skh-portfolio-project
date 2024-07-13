@@ -179,8 +179,8 @@ border: 1px solid var(--primary-color);
     margin: 0;
   }
 .content-container-two h1{
-    font-size: 94px;
-}
+    font-size: 74px;
+    }
 .content-container h2{
     font-size: 36px;
     font-weight: 600;
@@ -208,6 +208,10 @@ border: 1px solid var(--primary-color);
 
 footer {
     margin: 60px 0;
+}
+
+footer p{
+    font-size: 10px;
 }
 
 footer .email-link{
