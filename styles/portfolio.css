@@ -1,8 +1,8 @@
 :root{
     --primary-color:rgba(18, 109, 255);
     --secondary-color:rgba(255, 255, 255, 0.9);
-    --heading-font-family:"Bodoni Moda", serif;
-    --default-font-family:"Raleway",sans-serif;
+    --heading-font-family:"Abril Fatface", serif;
+    --default-font-family:"Urbanist", serif;
 }
 
 body{
@@ -45,11 +45,12 @@ nav a:hover{
 p {
     font-size: 16px;
     line-height: 1.5;
+    font-family: var(--default-font-family);
 }
 
 h1, h2,h3, h4, h5, h6 {
 font-family: var(--heading-font-family);
-font-weight: 900;
+
 
 }
 
@@ -68,7 +69,6 @@ h4{
 
 
 .hero {
-   
     text-align: center;
     color:rgba(255, 255, 255, 0.8);
     background-image:url("/images/hero-backround.jpg");
@@ -79,6 +79,7 @@ h4{
 
 .hero h1{
     font-size: 78px;
+    text-shadow: 1px 1px 2px rgb(245, 199, 77, 0.3);
 }
 
 
@@ -87,7 +88,6 @@ h4{
 font-family:var(--default-font-family);
 color: white;
     font-style: italic;
-    font-weight: 400;
     font-size: 26px;
 }
 
@@ -117,7 +117,7 @@ font-size: 36px;
 
 .btn-branding {
   background-color:var(--primary-color);
-box-shadow: 10px 10px 30px 0px rgba(255, 255, 255, 0.3);
+  box-shadow: 10px 10px 20px 0px rgb(245, 199, 77, 0.3);
   border-radius: 15px;
   line-height: 27px;
   color: rgba(214, 214, 210, 0.9);
@@ -146,13 +146,19 @@ border: 1px solid var(--primary-color);
 .image-overlay {
     position: relative;
     display: inline-block;
+    text-shadow: 1px 1px 1px rgb(245, 199, 77);
+}
+
+.name-about-page {
+    text-shadow: 1px 1px 1px rgb(245, 199, 77);
 }
 
 .image-overlay img {
     display: block;
     width: 100%;
     height: auto;
-
+    border: none;
+    box-shadow: 10px 10px 10px 0px rgb(113, 165, 250, 0.3);
 }
 
 .text-overlay {
@@ -180,10 +186,10 @@ border: 1px solid var(--primary-color);
   }
 .content-container-two h1{
     font-size: 74px;
+    text-shadow: 1px 1px 1px rgb(92, 180, 202, 0.7);
     }
 .content-container h2{
     font-size: 36px;
-    font-weight: 600;
 }
 
 .content-container-two h3 {
@@ -198,8 +204,8 @@ border: 1px solid var(--primary-color);
 .about-information {
     text-align: center;
     color:rgba(18, 109, 255, 0.6);
-    font-weight: 800;
-    font-size: 40px;
+    font-size: 60px;
+    font-family:"Bebas Neue", sans-serif;
 }
 
 .photo-myself-ny {
@@ -272,6 +278,6 @@ footer .social-links a:hover {
     font-size:36px ;
  }
  .about-information {
-    font-size: 20px;
+    font-size: 40px;
  }
 }
