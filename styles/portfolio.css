@@ -149,33 +149,28 @@ border: 1px solid var(--primary-color);
     border: 2px dotted #ffcdd9;
 }
 
-.image-overlay {
-    position: relative;
-    display: inline-block;
-    text-shadow: 1px 1px 1px #FFEAEF;
-}
-
 .name-about-page {
-    text-shadow: 1px 1px 1px #FFEAEF;
-}
-
-.image-overlay img {
-    display: block;
-    width: 100%;
-    height: auto;
-    border: none;
-    box-shadow: 10px 10px 10px 0px rgb(113, 165, 250, 0.3);
+    position: relative;
+    top: -25px;
+    right: 50px;
+    font-size: 84px;
+    text-align: right;
 }
 
 .text-overlay {
-    position: absolute;
-    top: 5px;
-    left: 50%;
+    position: relative;
+    top: 20px;
     font-size: 84px;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    padding: 20px 30px;
+    text-align: left;
+    margin: 0 auto;
 
+}
+
+.content-container-about {
+text-align: center;
+color: white;
+background-color: #71A5FA;
+padding: 10px 5px;
 }
 
 .content-container {
@@ -203,8 +198,8 @@ border: 1px solid var(--primary-color);
 }
 
 .photo-myself {
-    max-width: 200px;
-    border: 3px solid white;
+    max-width: 250px;
+    border: 2px solid white;
 }
 
 .about-information {
