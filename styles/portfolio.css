@@ -169,15 +169,10 @@ border: 1px solid var(--primary-color);
 }
 
 .content-container-two {
-    padding: 20px;
-    margin: 0;
+    display: block;
+    justify-content: space-around;
   }
 
-
-.content-container-two h1{
-    font-size: 74px;
-    text-shadow: 1px 1px 1px rgb(92, 180, 202, 0.7);
-    }
     
 .content-container h2{
     font-size: 36px;
@@ -187,16 +182,20 @@ border: 1px solid var(--primary-color);
     font-size: 24px;
 }
 
+.about-header {
+    background-color:rgb(237, 202, 15, 0.5) ;
+}
 .photo-myself {
-  max-height: 100%;
-  margin: 0;
-  display:inline-block;
+  max-height: 400px;
+ display: block;
+ margin-right: 10px;
 }
 
 .about-me {
-    font-size: 160px;
-    text-align: left;
-    margin: 10px;
+    font-size: 130px;
+    margin: 20px;
+    color: #71A5FA;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
 }
 
 .about-information {
@@ -268,18 +267,15 @@ footer .social-links a:hover {
         padding: 24px 0px;
     }
 
-    .project-description {
-        padding: 0;
-        text-align: center;
-    }
- .content-container-two h1{
-    font-size:36px ;
+.project-description {
+    padding: 0;
+    text-align: center;
  }
  .about-information {
     font-size: 25px;
  }
 .photo-myself{
-    max-height: 300px;
+    max-height: 200px;
 }
 .about-me{
     font-size: 60px;
