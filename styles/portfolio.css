@@ -169,8 +169,8 @@ border: 1px solid var(--primary-color);
 }
 
 .content-container-two {
-    display: block;
-    justify-content: space-around;
+   text-align: center;
+   padding: 10px;
   }
 
     
@@ -207,6 +207,15 @@ border: 1px solid var(--primary-color);
 
 .photo-myself-ny {
     max-height: 500px;
+}
+
+.text-diploma {
+    color: #71A5FA;
+    font-size: 36px;
+}
+
+.diploma {
+    max-height: 300px;
 }
 
 footer {
