@@ -120,6 +120,7 @@ font-size: 36px;
   color: rgba(214, 214, 210, 0.9);
   padding: 5px 30px;
   margin: 30px;
+  font-weight: 500;
 }
 
 .btn-branding-outline:hover {
@@ -138,39 +139,25 @@ border: 1px solid var(--primary-color);
     margin: 30px;
 }
 
-.technologies{
+.skills {
+    font-size: 20px;   
+}
+
+.list-of-skills{
+    border: 1px solid #71A5FA;
+    padding: 25px;
+    margin: 0 auto;
+    display: block;
+}
+
+.skill{
     font-size: 35px;
     margin: 10px auto;
-    padding: 20px;
     text-align: center;
-    border-radius: 10px;
-    background-color: #FFEAEF;
-    box-shadow: 10px 10px 10px 0px rgba(209, 211, 185, 0.3);
-    border: 2px dotted #ffcdd9;
-}
-
-.name-about-page {
-    position: relative;
-    top: -25px;
-    right: 50px;
-    font-size: 84px;
-    text-align: right;
-}
-
-.text-overlay {
-    position: relative;
-    top: 20px;
-    font-size: 84px;
-    text-align: left;
-    margin: 0 auto;
-
-}
-
-.content-container-about {
-text-align: center;
-color: white;
-background-color: #71A5FA;
-padding: 10px 5px;
+    font-family: var(--default-font-family);
+    line-height: 1;
+    color: #71A5FA;
+  
 }
 
 .content-container {
@@ -182,13 +169,16 @@ padding: 10px 5px;
 }
 
 .content-container-two {
-    padding: 50px;
+    padding: 20px;
     margin: 0;
   }
+
+
 .content-container-two h1{
     font-size: 74px;
     text-shadow: 1px 1px 1px rgb(92, 180, 202, 0.7);
     }
+    
 .content-container h2{
     font-size: 36px;
 }
@@ -198,8 +188,15 @@ padding: 10px 5px;
 }
 
 .photo-myself {
-    max-width: 250px;
-    border: 2px solid white;
+  max-height: 100%;
+  margin: 0;
+  display:inline-block;
+}
+
+.about-me {
+    font-size: 160px;
+    text-align: left;
+    margin: 10px;
 }
 
 .about-information {
@@ -257,7 +254,7 @@ footer .social-links a:hover {
 }
 
 
-@media (max-width:900px) {
+@media (max-width:960px) {
     .hero h1 {
         font-size: 40px;
         line-height: 1.5;
@@ -279,6 +276,12 @@ footer .social-links a:hover {
     font-size:36px ;
  }
  .about-information {
-    font-size: 40px;
+    font-size: 25px;
  }
+.photo-myself{
+    max-height: 300px;
+}
+.about-me{
+    font-size: 60px;
+}
 }
